@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* Menu bar styling */
+.menu_bar{
+    height: 5rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.new_open_save_container{
+    width: 25vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fa{
+    font-size: 2rem;
+}
+
+.formatting_container{
+    width: 10vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.selected{
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+    background-color: rgb(195,195,195);
+}
+
+/* biu container styling */
+.biu_container{
+    display: flex;
+    width: 25vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bold{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.italic{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.underline{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* halign container styling*/
+.halign_container{
+    display: flex;
+    width: 25vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left_aligned{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.center_aligned{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right_aligned{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* color container styling */
+.color_container{
+    display: flex;
+    width: 15vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* address input styling */
+.address_input{
+    text-align: center;
+}
+
+/* Formula bar styling */
+
+.formula_bar{
+    background-color:lightpink;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formula_bar>div{
+    margin: 1rem;
+}
+
+.formula_bar>*{
+    height: 70%;
+}
+
+.address_input{
+    width: 4rem;
+}
+
+.formula_input{
+    width: calc(100vw - 8rem )
+}
+
+/* Grid container styling */
+.grid_container{
+    height: calc(100vh - 5rem - 2rem - 2.5rem );
+    background-color: rgb(255, 255, 255);
+}
+
+.grid_container{
+    overflow: auto;
+    position: relative;
+}
+
+.cell{
+    border: 1px solid rgb(226, 221, 221);
+    height: 2rem;
+    width: 5rem;
+    overflow: hidden;
+}
+
+/* top row styling */
+.top_row{
+    margin-left: 5rem;
+    text-align: center;
+    display: flex;
+}
+
+.top_row .cell{
+    min-width: 5rem;
+}
+
+/* left col styling */
+.left_col{
+    text-align: center;
+}
+
+/* 2d grid */
+
+.grid{
+    position: absolute;
+    top: 2rem;
+    left: 5em;
+}
+
+.row{
+    display: flex;
+}
+
+.active{
+    border: 2.5px solid rgb(58, 113, 74);
+}
+
+/* [contenteditable] {
+    outline: 0px solid transparent;
+} */
+
+/* Sheets container styling */
+.sheets_container{
+    background-color: rgb(236, 159, 159);
+    height: 2.5rem;
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+}
+
+/* aligning position and size of add sign. */
+.add-sheet_container{
+    margin: 0.6rem;
+}
+.fa-plus{
+    font-size: 1.5rem;
+}
+
+/* handling all sheets */
+.sheets-list{
+    display: flex;
+}
+
+.sheet{
+    margin: 0.2rem;
+    min-width: 70px;
+    text-align: center;
+}
+
+.active-sheet{
+    background-color: white;
+}
+
